@@ -1,0 +1,9 @@
+.list {
+    list-style-type: none;
+}
+.item {
+    margin-bottom: 30px;
+}
+.title {
+    margin-bottom: 15px;
+}

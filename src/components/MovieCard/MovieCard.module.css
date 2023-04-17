@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+}
+.image {
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+}
+.list {
+    list-style-type: none;
+}
+.item {
+    margin-bottom: 30px;
+}
+.title {
+    margin-bottom: 10px;
+}
