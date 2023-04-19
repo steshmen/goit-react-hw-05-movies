@@ -29,11 +29,11 @@ const Cast = () => {
                     {cast.map(({ id, name, character, profile_path }) => {
                         return (
                             <li key={id} className={style.item}>
-                                {profile_path && <img 
+                                {profile_path ? <img 
                                     loading="lazy"
                                     className={style.image}
                                     src={`https://image.tmdb.org/t/p/w500${profile_path}`} 
-                                    alt={name}/>}
+                                    alt={name}/> : <p>No image</p>}
                                 <p>{name}</p>
                                 <p>{character}</p>
                             </li>
